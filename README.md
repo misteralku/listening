@@ -43,7 +43,7 @@ Ubah video YouTube jadi soal rumpang otomatis.
 1. Buka [Live Demo](https://misteralku.github.io/listening/)
 2. Paste link YouTube lagu favoritmu
 3. Pilih tipe latihan & level kesulitan
-4. Klik **Start** dan jawab soal rumpang
+4. Klik **Generate** dan jawab soal rumpang
 5. Lihat skor & akurasi di akhir sesi
 
 ---
