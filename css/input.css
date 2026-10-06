@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-yellow: #ffe600;
+  --color-brand-pink: #ff90e8;
+  --color-brand-green: #a6fa50;
+  --color-brand-teal: #40e0d0;
+  --color-brand-red: #ff5e5e;
+  --color-brand-blue: #3E80D3;
+  --color-brand-bg: #f4f4f0;
+  --color-brand-gray: #f0f0f0;
+  --color-brand-hover: #e0e0e0;
+  --shadow-neo-sm: 2px 2px 0 0 #000;
+  --shadow-neo: 3px 3px 0 0 #000;
+  --shadow-neo-md: 4px 4px 0 0 #000;
+  --shadow-neo-lg: 8px 8px 0 0 #000;
+  --breakpoint-sm: 640px;
+}
+
+@layer components {
+  .btn-neo {
+    @apply border-2 border-black font-bold transition-all;
+    box-shadow: var(--shadow-neo);
+  }
+  .btn-neo:hover {
+    transform: translate(1px, 1px);
+    box-shadow: var(--shadow-neo-sm);
+  }
+  .btn-neo:active {
+    transform: translate(3px, 3px);
+    box-shadow: none;
+  }
+  .card-neo {
+    @apply bg-white border-4 border-black overflow-hidden;
+    box-shadow: var(--shadow-neo-lg);
+  }
+  .spinner {
+    @apply inline-block size-4 border-2 border-black border-t-transparent rounded-full;
+    animation: spin 0.7s linear infinite;
+  }
+  .spinner-lg {
+    @apply size-8 border-4;
+  }
+  .progress-bar {
+    transition: width 0.15s linear;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+  body {
+    @apply bg-brand-bg text-black;
+  }
+}
