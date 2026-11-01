@@ -30,7 +30,7 @@ Ubah video YouTube jadi soal rumpang otomatis.
 ---
 
 ## 🚀 Teknologi
-[![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,python,fastapi)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,python,fastapi,gemini)](https://skillicons.dev)
 
 ---
 
