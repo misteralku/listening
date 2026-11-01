@@ -30,7 +30,11 @@ Ubah video YouTube jadi soal rumpang otomatis.
 ---
 
 ## 🚀 Teknologi
-[![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,python,fastapi,gemini)](https://skillicons.dev)
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,python,fastapi" alt="Tech Stack" height="48" />
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/google-gemini.svg" alt="Google Gemini" width="48" height="48" style="background-color: #18181b; border-radius: 12px; padding: 8px; box-sizing: border-box; vertical-align: top;" />
+</p>
 
 ---
 
